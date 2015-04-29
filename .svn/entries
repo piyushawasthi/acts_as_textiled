@@ -1,0 +1,106 @@
+8
+
+dir
+1481
+http://rise.unfuddle.com/svn/rise_thrive/trunk/vendor/plugins/acts_as_textiled
+http://rise.unfuddle.com/svn/rise_thrive
+
+
+
+2010-04-06T15:54:55.954921Z
+957
+sdillard
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+10f615c3-73b8-4ef0-ba97-b6400d4e5a13
+
+test
+dir
+
+LICENSE
+file
+
+
+
+
+2012-03-16T06:34:26.000000Z
+f88d0d40466318ceabdb960b241dcaa6
+2009-03-26T19:30:15.724255Z
+4
+sdillard
+
+Rakefile
+file
+
+
+
+
+2012-03-16T06:34:26.000000Z
+e34c8b67c949b1e6b829c46da45ce9c2
+2009-03-26T19:30:15.724255Z
+4
+sdillard
+
+README.rdoc
+file
+
+
+
+
+2012-03-16T06:34:26.000000Z
+8a678a1607094ab503248125091f41c4
+2009-03-26T19:30:15.724255Z
+4
+sdillard
+
+init.rb
+file
+
+
+
+
+2012-03-16T06:34:26.000000Z
+51198968fb5777819f7d9bc059891170
+2009-03-26T19:30:15.724255Z
+4
+sdillard
+
+lib
+dir
+
+CHANGES
+file
+
+
+
+
+2012-03-16T06:34:26.000000Z
+e641f9a08e0ed2da0af6c9a78652de27
+2009-03-26T19:30:15.724255Z
+4
+sdillard
+
+about.yml
+file
+
+
+
+
+2012-03-16T06:34:26.000000Z
+85b7965577d3df740fe2c24a53276adb
+2009-03-26T19:30:15.724255Z
+4
+sdillard
+

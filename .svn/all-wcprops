@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/rise_thrive/!svn/ver/957/trunk/vendor/plugins/acts_as_textiled
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/rise_thrive/!svn/ver/4/trunk/vendor/plugins/acts_as_textiled/LICENSE
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/rise_thrive/!svn/ver/4/trunk/vendor/plugins/acts_as_textiled/Rakefile
+END
+README.rdoc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/rise_thrive/!svn/ver/4/trunk/vendor/plugins/acts_as_textiled/README.rdoc
+END
+init.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/rise_thrive/!svn/ver/4/trunk/vendor/plugins/acts_as_textiled/init.rb
+END
+CHANGES
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/rise_thrive/!svn/ver/4/trunk/vendor/plugins/acts_as_textiled/CHANGES
+END
+about.yml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/rise_thrive/!svn/ver/4/trunk/vendor/plugins/acts_as_textiled/about.yml
+END

@@ -1,0 +1,55 @@
+8
+
+dir
+1481
+http://rise.unfuddle.com/svn/rise_thrive/trunk/vendor/plugins/acts_as_textiled/test
+http://rise.unfuddle.com/svn/rise_thrive
+
+
+
+2009-09-02T16:09:15.688581Z
+500
+sdillard
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+10f615c3-73b8-4ef0-ba97-b6400d4e5a13
+
+helper.rb
+file
+
+
+
+
+2012-03-16T06:34:26.000000Z
+4e9aaf8c9c3fb70152160d8096824e2d
+2009-03-26T19:30:15.724255Z
+4
+sdillard
+
+textiled_test.rb
+file
+
+
+
+
+2012-03-16T06:34:26.000000Z
+0897946c07ddd8257b7635cbee469c58
+2009-03-26T19:30:15.724255Z
+4
+sdillard
+
+fixtures
+dir
+

@@ -1,0 +1,13 @@
+K 10
+svn:ignore
+V 103
+private_storage
+mydoc.xml
+.idea
+remove_kate_temp_files.sh
+.metadata
+.project
+thrive.kpf
+test_gruff.png
+
+END
