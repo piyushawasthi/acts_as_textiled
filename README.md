@@ -19,9 +19,8 @@
 		config/initializers/plugins.rb
 
 5. Paste Code in config/initializers/plugins.rb file.
-	
-	Method for Load all plugins
-==============================================================================================================
+
+	```shell
 	Dir[Rails.root.join('lib', 'plugins', '*')].each do |plugin|
 	  next if File.basename(plugin) == 'initializers'
 
@@ -41,7 +40,7 @@
 	  initializer = File.join(File.dirname(plugin), 'initializers', File.basename(plugin) + '.rb')
 	  require initializer if File.exists?(initializer)
 	end
-================================================================================================================
+	```
 
 = Acts as Textiled
 
@@ -162,4 +161,4 @@ won't need to do this.
 
 Enjoy.
 
-* By Piyush Awasthi
+* By Piyush Awasthi (awasthi.piyush8@gmail.com)
