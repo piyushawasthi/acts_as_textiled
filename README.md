@@ -1,5 +1,45 @@
-= Upgrade Acts as Textiled for Rails 4
+## Upgrade Acts as Textiled for Rails 4
 
+## Getting Started
+
+1. Take Clone the Repository:
+
+        git clone git@github.com:piyushawasthi/acts_as_textiled.git
+
+2. Create a Directory lib/plugins in your Rails 4 app:
+
+        mkdir lib/plugins
+
+3. Move "acts_as_textiled" in lib/plugins directory:
+
+        lib/plugins/acts_as_textiled
+
+4. Create initializer to load all plugins in Rails 4.
+	
+		config/initializers/plugins.rb
+
+5. Paste Code in config/initializers/plugins.rb file.
+	# Method for Load all plugins
+
+	Dir[Rails.root.join('lib', 'plugins', '*')].each do |plugin|
+	  next if File.basename(plugin) == 'initializers'
+
+	  lib = File.join(plugin, 'lib')
+	  $LOAD_PATH.unshift lib
+
+	  begin
+	    require File.join(plugin, 'init.rb')
+	  rescue LoadError
+	    begin
+	      require File.join(lib, File.basename(plugin) + '.rb')
+	    rescue LoadError
+	      require File.join(lib, File.basename(plugin).underscore + '.rb')
+	    end
+	  end
+
+	  initializer = File.join(File.dirname(plugin), 'initializers', File.basename(plugin) + '.rb')
+	  require initializer if File.exists?(initializer)
+	end
 
 = Acts as Textiled
 
